@@ -9,5 +9,5 @@ function getBasePath()
 function getDirectory( $path = '' )
 {
 	$path = getBasePath() . $path;
-	return false;
+	return $path;
 }

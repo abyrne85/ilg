@@ -57,5 +57,7 @@ require_once( getBasePath() . '/autoload.php' );
  */
 use Affinity4API\Classes\StoreJS as StoreJS;
 use Affinity4API\Classes\TextResizer as TextResizer;
+use Affinity4API\Classes\AccessibleNav as AccessibleNav;
 // new StoreJS;
 new TextResizer;
+new AccessibleNav;
