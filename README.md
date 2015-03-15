@@ -2,7 +2,7 @@ ILG
 
 1. Create Database/Schema named __ilg__
 2. Import _*.sql.gz_ file located in the DB directory
-3. In __C:/xampp/htdocs/__ run `git clone https://github.com/lukewatts/ilg.git ilg`
+3. In __C:/xampp/htdocs/__ run `git clone https://github.com/lukewatts/ilg.git ilg` (or maybe fork the repo first and clone your own fork so you can push up your changes and submit a pull request...)
 4. Open _wp-config.php_. Should only need to add DB_PASSWORD if you use a password. The rest should be correct.
 5. Setup Virtual Host as follows:
 1. Open __C:/xampp/apache/conf/extra/httpd-vhosts.conf__ and add:
