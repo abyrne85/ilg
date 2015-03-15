@@ -6,7 +6,8 @@ ILG
 4. Open wp-config.php and Database credentials if needed.
 5. Setup Virtual Host as follows:
 1. Open `C:\xampp\apache\conf\extra\httpd-vhosts.conf` and add:
-`# Preserves localhost and 127.0.0.1 URIs
+```
+# Preserves localhost and 127.0.0.1 URIs
 <VirtualHost 127.0.0.1:80>
     DocumentRoot "C:/xampp/htdocs/"
     ServerName localhost
@@ -19,7 +20,8 @@ ILG
   DocumentRoot "C:/xampp/htdocs/ilg"
   ServerName ilg.dev
   ServerAlias ilg.dev
-</VirtualHost>`
+</VirtualHost>
+```
 
 to the end of the file. Save and close.
 
